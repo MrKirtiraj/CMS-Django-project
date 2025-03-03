@@ -6,3 +6,29 @@
 5. sort and filter options added to dashboard.
 
 
+> *use cases*  
+
+*1. Student Use Cases*
+_Register an Account:_ A student creates a new account to access the system.
+_Login:_ A student logs in using valid credentials.
+_Submit a Complaint:_ A student registers a complaint regarding equipment, technical issues, or other concerns.
+_View Complaint Logs:_ A student can see the list of complaints they have registered, including details like title, date, and current status.
+
+*2. Technical Assistant/Staff Use Cases*
+_Register an Account:_ A technical staff member creates a __new account.
+_Login:_ A technical staff member logs in using valid credentials.
+_View Complaints:_ A technical staff member can see all student complaints and their details.
+_Update Complaint Status:_ A technical staff member changes the status of complaints to "Not Processed," "In Progress," or "Terminated."
+
+*3. HOD (Head of Department) Use Cases*
+_Register an Account:_ The HOD creates a new account.
+_Login:_ The HOD logs in using valid credentials.
+_View Complaints:_ The HOD can see all student complaints and their details.
+_Update Complaint Status:_ The HOD can change the status of complaints.
+_View Student & Technical Staff Details:_ The HOD can access student and technical staff information related to complaints.
+
+> *remaining*
+front-end (page designing.) 
+staff can ascend the complaint to HOD.
+Contact us page creation and linking.
+hero page and its linking.
