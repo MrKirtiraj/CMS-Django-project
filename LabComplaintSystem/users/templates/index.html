@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container text-center mt-5">
+    <h1>Welcome to the Lab Complaint System</h1>
+    <p class="lead">Please select your role to continue:</p>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <a href="{% url 'student_login' %}" class="btn btn-primary btn-lg btn-block">Student</a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'staff_login' %}" class="btn btn-success btn-lg btn-block">Staff</a>
+        </div>
+        <div class="col-md-4">
+            <a href="{% url 'admin_login' %}" class="btn btn-danger btn-lg btn-block">Admin</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
